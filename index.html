@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="./styles.css" rel="stylesheet" />
+		<script type="module" src="./script.js"></script>
+		<script type="module">
+		</script>
+		<title>User Exterface</title>
+	</head>
+	<body>
+		<h1>User Exterface</h1>
+		<form id="login-form">
+			<div class="wrapper">
+				<label htmlFor="username">
+					Username:&nbsp;
+				</label>
+				<input
+					type="text"
+					id="username"
+					name="username"
+					placeholder="Username"
+					required
+				/>
+			</div>
+			<div class="wrapper">
+				<label htmlFor="password">
+					Password:&nbsp;
+				</label>
+				<div id="password-display"></div>
+			</div>
+			<input
+				type="range"
+				id="password"
+				name="password"
+				min="0"
+				max="10"
+				defaultValue="0"
+				step="1"
+				title="Slide to select your password"
+			/>
+			<div>
+				<button type="submit">Log In</button>
+			</div>
+		</form>
+	</body>
+</html
